@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+
+}
+
+body{
+    background:linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 100% 200%;
+}
+
+.wrapper{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+}
+
+.wrapper .container{
+    width: 700px;
+    height: 600px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.wrapper .container .caption-login{
+    width: 500px;
+    height: 100px;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.wrapper .container .form-login{
+    width: 500px;
+    height: 450px;
+    margin: auto;
+    background-color: darkcyan;
+    border-radius: 20px;
+}
+
+.wrapper .container .form-login .form-login-dalam{
+    width: 400px;
+    height: 350px;
+    margin: auto;
+    padding: 50px 0;
+}
+.wrapper .container .form-login .form-login-dalam .caption-username{
+    margin: 5px 0;
+}
+
+.wrapper .container .form-login .form-login-dalam .input-username{
+    margin: 5px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.wrapper .container .form-login .form-login-dalam .caption-password{
+    margin-top: 25px;
+}
+
+.wrapper .container .form-login .form-login-dalam .input-password{
+    margin: 5px 0;
+    padding: 15px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+.wrapper .container .form-login .form-login-dalam input[type=text], input[type=password]{
+    width: 350px;
+    border: none;
+    outline: none;
+}
+
+.wrapper .container .form-login .form-login-dalam .button-login{
+    width: 400px;
+    border: none;
+    border-radius: 16px;
+    background-color: white;
+    color: blue;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.wrapper .container .form-login .form-login-dalam .button-login:hover{
+    cursor: pointer;
+    box-shadow: inset 400px 0 0 0 yellow;
+    transition: ease-out 0.5s;
+}
+
+.wrapper .container .form-login .form-login-dalam .remember{
+    margin: 10px 0;
+    float: left;
+}
+
+.wrapper .container .form-login .form-login-dalam .forgot{
+    margin: 10px 0;
+    float: right;
+}
